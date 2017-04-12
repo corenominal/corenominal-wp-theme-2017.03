@@ -226,17 +226,24 @@ nav.navigation a {
 @media only screen and (min-width: 768px) {
   
   html {
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
+    background: url(img/particles-001.png) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
 
   body {
     background: #242c38;
     color: #ccc;
-    background: url(img/particles-001.png) no-repeat center center fixed; 
+    /*background: url(img/particles-001.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    height:100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
   
   header.banner {
