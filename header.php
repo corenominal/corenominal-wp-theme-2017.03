@@ -45,3 +45,5 @@ require get_template_directory() . '/meta.php';
 		</ul>
 	</nav>
 </header>
+
+<div id="bg" class="bg" role="presentation"></div>
