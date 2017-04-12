@@ -1,0 +1,36 @@
+.archive ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.archive li {
+    margin: 0;
+}
+
+.archive li.title {
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.archive li.title span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ccc;
+}
+
+.archive li.title a {
+    display: block;
+    margin-left: 30px;
+    border-bottom: none;
+    color: #ccc;
+}
+
+.archive li.title a:hover {
+    display: block;
+    margin-left: 30px;
+    border-bottom: none;
+    color: #fff;
+}

@@ -1,0 +1,215 @@
+/**
+ * Buttons
+ * -----------------------------------------------------------------------------
+ */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #62707B;
+    border-radius: 2px;
+    border: 1px solid #62707B;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+    margin-bottom: 20px;
+    font-family: inherit;
+    width: 100%;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #62707B;
+    border-color: #62707B;
+    outline: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #62707B;
+    border-color: #62707B;
+    transition: all 0.4s ease;
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #6E7D8A;
+    border-color: #6E7D8A;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button[disabled],
+button[disabled]:hover,
+button[disabled]:focus {
+    color: #555;
+    background-color: #ccc;
+    border-color: #ccc;
+    box-shadow: none;
+}
+/**
+ * Forms
+ * -----------------------------------------------------------------------------
+ */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  width: 100%;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  color: #1e232d;
+  border-radius: 2px;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="submit"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="date"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #fff;
+  background: #fff;
+  outline: 0;
+  box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.1),2px 2px 6px 0 rgba(0,0,0,0.1);
+}
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: transparent;
+    border: 2px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.4s linear;
+}
+
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\2714";
+    font-family: inherit;
+    background: #1E232D;
+    color: #ccc;
+    font-size: 10px;
+    transition: all 0.4s linear;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    content: "\2714";
+    font-family: inherit;
+    color: #ccc;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+    outline: 0px solid #ccc; /* focus style */
+}
+
+input.filter-input {
+    width: 100%;
+    font-size: 28px;
+    line-height: 28px;
+    height: 48px;
+}

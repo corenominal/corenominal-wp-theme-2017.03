@@ -1,0 +1,50 @@
+/* Everything */
+body {
+  line-height: 1.6;
+  font-family: Consolas, Menlo, "Noto Mono", "DejaVu Sans Mono", monospace;
+  font-size: 13px;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5 {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-left: -20px;
+  margin-top: 50px;
+}
+
+h2.date,
+h3.date {
+  margin-top: -6px;
+  text-transform: none;
+  color: #ccc;
+  font-size: 0.70rem;
+}
+
+blockquote {
+  border-left: 2px solid #4F5660;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.meta {
+  font-size: 0.70rem;
+  margin: 0;
+}
+
+
+/*Mobile*/
+
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  
+  
+
+  
+
+}

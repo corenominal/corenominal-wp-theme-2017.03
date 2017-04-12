@@ -1,0 +1,18 @@
+.description {
+    background: #1e232d;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+}
+
+.tags {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tags li {
+    display: block;
+    float: left;
+    margin: 0 20px 0 0;
+}

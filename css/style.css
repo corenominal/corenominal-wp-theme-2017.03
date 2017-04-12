@@ -1,0 +1,265 @@
+/* Everything */
+body {
+  background: #242c38;
+  color: #ccc;
+}
+
+a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+main a {
+  border-bottom: 1px solid #4F5660;
+  padding-bottom: 1px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.h-card {
+  margin-left: -20px;
+  border-bottom: 4px solid #1e232d;
+  font-style: normal;
+}
+
+.h-card h1 {
+  margin-left: 0;
+}
+
+main a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+main h1 a,
+main h2 a,
+main h3 a,
+main h4 a {
+  padding-bottom: 2px;
+}
+
+h2.date a,
+h3.date a {
+  color: #ccc;
+}
+
+h2.date a:hover,
+h3.date a:hover {
+  color: #fff;
+}
+
+main img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.wp-caption img {
+  max-width: 100%;
+}
+
+.wp-caption {
+  max-width: 100%;
+  background: #1e232d;
+  color: #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.wp-caption p.wp-caption-text {
+  margin-bottom: 0;
+  color: #ccc;
+}
+
+hr {
+  color: #1E232D;
+  background-color: #1E232D;
+  height: 2px;
+  border: 0;
+  clear: both;
+}
+
+code {
+  font-family: inherit;
+  background-color: #1e232d;
+  color: #CFCFCF;
+  border: none;
+  white-space: nowrap;
+}
+
+pre {
+  font-family: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #1e232d;
+  color: #CFCFCF;
+  border: none;
+  margin: 0 0 22px 0;
+  overflow-y: auto;
+  padding: 5px 10px;
+  border-left: 2px solid #414A4C;
+}
+pre code {
+  background: #1e232d;
+  color: #CFCFCF;
+  border: none;
+  white-space: pre;
+}
+
+main {
+  background: #242c38;
+  color: #ccc;
+}
+
+.metacontainer {
+  margin-top: 30px;
+  margin-left: -20px;
+  border-top: 2px solid #414A4C;
+  font-size: 0.70rem;
+}
+
+.meta.top {
+  border-top: 2px solid #1E232D;
+  padding-top: 12px;
+}
+
+.comments-list {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.comments-list h2 {
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.comments-list .comment {
+  margin-bottom: 60px;
+  position: relative;
+  padding-left: 62px;
+}
+
+.comment .gravatar {
+  position: absolute;
+  top:0;
+  left:0;
+  border: 2px solid #1e232d;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.commentmetadata {
+  color: #999;
+  font-size: 13px;
+}
+
+.comments-list label {
+  display:block;
+}
+
+.comments-list .comment.bypostauthor {
+  background: #1e232d;
+  padding: 6px 6px 6px 62px;
+}
+
+.pager {
+  display: block;
+}
+
+.pager a {
+  display: block;
+}
+
+.pager a.prev-page {
+  float: right;
+}
+
+.pager a.next-page {
+  float: left;
+  
+}
+
+.search-input {
+  margin-left: -20px;
+}
+
+.search-results article {
+  margin-bottom: 20px;
+}
+
+.search-results .pager {
+  margin-top: 60px;
+}
+
+/*Mobile*/
+header.banner {
+  background: #1e232d;
+  -webkit-box-shadow: 0px 2px 4px #151617;
+  -moz-box-shadow: 0px 2px 4px #151617;
+  box-shadow: 0px 2px 4px #151617
+}
+
+nav.navigation a {
+  background: transparent;
+}
+
+.burger {
+  border: 0;
+  background: #1B1F20;
+  color: #ccc;
+  width: auto;
+  box-shadow: none;
+  height: auto;
+}
+
+.burger:hover,
+.burger:focus,
+.burger:active {
+  box-shadow: none;
+  color: #fff;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  
+  html {
+    overflow-y: scroll;
+  }
+
+  body {
+    background: #242c38;
+    color: #ccc;
+    background: url(img/particles-001.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  header.banner {
+    -webkit-box-shadow: 0px 2px 4px #151617;
+    -moz-box-shadow: 0px 2px 4px #151617;
+    box-shadow: 0px 2px 4px #151617;
+  }
+
+  nav.navigation a {
+    color: #ccc;
+    background: transparent;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  nav.navigation a:hover {
+    color: #fff;
+  }
+
+  main {
+    -webkit-box-shadow: 0px 2px 4px #151617;
+    -moz-box-shadow: 0px 2px 4px #151617;
+    box-shadow: 0px 2px 4px #151617;
+  }
+
+}

@@ -1,0 +1,28 @@
+h1 {
+	margin-bottom: 20px;
+}
+
+.pwgenWEB {
+	margin-bottom: 20px;
+}
+
+input.password.success,
+input.password.success:active,
+input.password.success:focus {
+	background: #1E232D;
+	border: 1px solid #1E232D;
+	color: #fff;
+}
+
+.pwgen-notify {
+	min-height: 60px;
+}
+
+.alert {
+	display: inline-block;
+	padding: 8px 12px;
+	margin-top: 20px;
+	background: #1E232D;
+	color: #fff;
+	width: 100%;
+}
