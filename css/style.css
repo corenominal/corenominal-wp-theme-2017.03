@@ -233,6 +233,7 @@ nav.navigation a {
   body {
     background: #1e232d;
     color: #ccc;
+    -webkit-overflow-scrolling: touch;
   }
 
   .bg {
