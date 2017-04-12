@@ -145,10 +145,13 @@ main {
   top:0;
   left:0;
   border: 2px solid #1e232d;
-  width: 48px;
-  height: 48px;
   margin: 0;
   padding: 0;
+}
+
+.comment .avatar {
+  max-width: 48px;
+  max-height: 48px;
 }
 
 .commentmetadata {

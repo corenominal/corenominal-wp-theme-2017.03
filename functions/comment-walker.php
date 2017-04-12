@@ -60,7 +60,7 @@ class corenominal_comment_walker extends Walker_Comment {
 
 		<article <?php comment_class( array('p-comment','h-entry') ) ?> id="comment-<?php comment_ID() ?>" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
 			
-			<figure class="gravatar"><?php echo get_avatar( $comment, 48, 'https://corenominal.org/wp-content/uploads/2017/04/possible-signal.png', 'Author’s gravatar' ); ?></figure>
+			<figure class="gravatar"><?php echo get_avatar( $comment, 48, 'https://corenominal.org/wp-content/uploads/2017/04/signal.png', 'Author’s gravatar' ); ?></figure>
 			
 			<div class="comment-meta post-meta" role="complementary">
 				<h2 class="p-name comment-author">
