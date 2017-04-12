@@ -51,6 +51,22 @@ jQuery( document ).ready( function( $ )
     // FitVids
     $( 'main' ).fitVids();
 
+    // Eww
+    function fixShit() {
+        var w = $( window ).width();
+        if( w >= 768 )
+        {
+            $( '#banner' ).height( $( window ).height() + 200 );
+        }
+        else
+        {
+            $( '#banner' ).removeAttr( 'style' );
+        }
+        
+    }
+    $( window ).resize( fixShit );
+    fixShit();
+
     // Search UX
     if( $( '#s' ).length > 0 )
     {
