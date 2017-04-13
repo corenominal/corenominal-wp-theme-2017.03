@@ -86,6 +86,7 @@ main {
 }
 
 footer.contentinfo {
+  clear: both;
   margin: 40px 20px 20px 40px;
   padding-top: 10px;
   -webkit-transition: all 0.5s;
