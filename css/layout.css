@@ -22,15 +22,11 @@ article {
 
 header.banner {
   z-index: 10;
-
   position: fixed;
   top: -4px;
   left: 0;
   width: 100%;
   padding: 0px 20px 0px 20px;
-
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 ul.menu {
@@ -38,8 +34,6 @@ ul.menu {
   margin: 0;
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 ul.menu.open {
@@ -65,8 +59,6 @@ nav.navigation a {
   font-size: 36px;
   line-height: 36px;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .burger.flip {
@@ -81,16 +73,12 @@ nav.navigation a {
 main {
   margin: 0 20px 0 40px;
   padding-top: 60px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 footer.contentinfo {
   clear: both;
   margin: 40px 20px 20px 40px;
   padding-top: 10px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
   border-top: 2px solid #1E232D;
 }
 
@@ -105,20 +93,14 @@ footer.contentinfo {
 
   header.banner {
     z-index: 10;
-
     text-align: center;
-
     position: fixed;
-    top: 0;
-    /*left: -140px;*/
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 140px;
     height: 150%;
     height: 100vh;
     padding: 30px 20px 0px 20px;
-
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
   }
 
   header.banner.open {
@@ -152,13 +134,10 @@ footer.contentinfo {
     margin: 0;
     position: absolute;
     top: 0px;
-    /*left: -760px;*/
-    left: 0;
+    left: 0px;
     width: 760px;
     min-height: 100%;
     padding: 0px 100px 200px 240px;
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
   }
 
   main.open {
