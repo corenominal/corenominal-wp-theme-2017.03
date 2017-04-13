@@ -27,13 +27,13 @@ jQuery.fn.selectRange = function(start, end)
     });
 };
 
-(function( $ ) {
-    $( window ).load( function(){
-        // Open header and main
-        $( '#banner' ).addClass( 'open' );
-        $( '#main' ).addClass( 'open' );
-    })
-})( jQuery );
+// (function( $ ) {
+//     $( window ).load( function(){
+//         // Open header and main
+//         $( '#banner' ).addClass( 'open' );
+//         $( '#main' ).addClass( 'open' );
+//     })
+// })( jQuery );
 
 jQuery( document ).ready( function( $ )
 {

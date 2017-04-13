@@ -110,7 +110,8 @@ footer.contentinfo {
 
     position: fixed;
     top: 0;
-    left: -140px;
+    /*left: -140px;*/
+    left: 0;
     width: 140px;
     height: 150%;
     height: 100vh;
@@ -151,7 +152,8 @@ footer.contentinfo {
     margin: 0;
     position: absolute;
     top: 0px;
-    left: -760px;
+    /*left: -760px;*/
+    left: 0;
     width: 760px;
     min-height: 100%;
     padding: 0px 100px 200px 240px;
