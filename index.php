@@ -22,14 +22,16 @@ get_header();
 	<address class="h-card bio">
 	<!-- <a href="https://corenominal.org" class="u-url"><img class="u-photo" src="/images/photo-150.jpg" alt="corenominal" srcset="/images/photo-300.jpg 2x,/images/photo-600.jpg 4x"></a> -->
 	<h1 class="p-name">corenominal</h1>
-		<p><a href="https://corenominal.org/category/full-stack/">Full stack</a> <a href="https://corenominal.org/tag/web-development/">web developer</a> working at <a class="p-org" href="https://gelder.co.uk/">Gelder Group</a>, interested in <a href="https://corenominal.org/tag/">all the things</a>, but especially 
+		<p class="p-note"><a href="https://corenominal.org/category/full-stack/">Full stack</a> <a href="https://corenominal.org/tag/web-development/">web developer</a> working at <a class="p-org" href="https://gelder.co.uk/">Gelder Group</a>, interested in <a href="https://corenominal.org/tag/">all the things</a>, but especially 
 		<a href="https://corenominal.org/tag/html/">HTML</a>, 
 		<a href="https://corenominal.org/tag/css/">CSS</a>, 
 		<a href="https://corenominal.org/tag/javascript/">JavaScript</a>, 
 		<a href="https://corenominal.org/tag/php/">PHP</a>, 
 		<a href="https://corenominal.org/tag/wordpress/">WordPress</a>, 
 		<a href="https://corenominal.org/tag/linux/">Linux</a>, &amp; 
-		<a href="https://corenominal.org/tag/macos/">macOS</a>. <a class="u-email" href="mailto:corenominal@corenominal.org">Get in touch!</a></p>
+		<a href="https://corenominal.org/tag/macos/">macOS</a>. 
+		You can <a rel="me" class="u-url" href="https://twitter.com/corenominal">follow me here</a>. 
+		You can <a class="u-email" href="mailto:corenominal@corenominal.org">get in touch here</a>.</p>
 	</address>
 
 <?php else: ?>
