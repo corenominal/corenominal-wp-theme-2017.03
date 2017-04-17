@@ -118,9 +118,14 @@ main {
   font-size: 0.70rem;
 }
 
+p.meta.top:before {
+  content: "--";
+  display: block;
+}
+
 .meta.top {
-  border-top: 2px solid #1E232D;
-  padding-top: 12px;
+/*  border-top: 2px solid #1E232D;*/
+  /*padding-top: 12px;*/
 }
 
 .comments-list {
