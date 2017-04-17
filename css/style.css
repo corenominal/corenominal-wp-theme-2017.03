@@ -276,6 +276,7 @@ nav.navigation a {
   }
 
   main {
+    background: rgba(36, 44, 56, 0.900);
     -webkit-box-shadow: 0px 2px 4px #151617;
     -moz-box-shadow: 0px 2px 4px #151617;
     box-shadow: 0px 2px 4px #151617;
