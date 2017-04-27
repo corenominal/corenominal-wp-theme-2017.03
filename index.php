@@ -22,7 +22,7 @@ get_header();
 	<address class="h-card bio">
 	<!-- <a href="https://corenominal.org" class="u-url"><img class="u-photo" src="/images/photo-150.jpg" alt="corenominal" srcset="/images/photo-300.jpg 2x,/images/photo-600.jpg 4x"></a> -->
 	<h1 class="p-name">corenominal</h1>
-		<p class="p-note"><a href="https://corenominal.org/category/full-stack/">Full stack</a> <a href="https://corenominal.org/tag/web-development/">web developer</a> working at <a class="p-org" href="https://gelder.co.uk/">Gelder Group</a>, interested in <a href="https://corenominal.org/tag/">all the things</a>, but especially 
+		<p class="p-note">Full stack <a href="https://corenominal.org/tag/web-development/">web developer</a> working at <a class="p-org" href="https://gelder.co.uk/">Gelder Group</a>, interested in <a href="https://corenominal.org/tag/">all the things</a>, but especially 
 		<a href="https://corenominal.org/tag/html/">HTML</a>, 
 		<a href="https://corenominal.org/tag/css/">CSS</a>, 
 		<a href="https://corenominal.org/tag/javascript/">JavaScript</a>, 
